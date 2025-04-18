@@ -29,7 +29,17 @@ The project follows academic constraints such as:
 
 ## 📁 Structure
 
-01-rooms-managemens/ ├── main.py # Entry point for command execution. ├── habitacions.py # Room management logic. ├── reserves.py # Reservation logic. ├── fitxers.py # File handling utility functions (planned) ├── dades/ │ ├── habitacions.txt # Stores room data │ └── reserves.txt # Stores reservation data. └── README.md # Project overview
+<pre><code>
+01-rooms-managemens/
+├── main.py             # Entry point for command execution.
+├── habitacions.py      # Room management logic.
+├── reserves.py         # Reservation logic.
+├── fitxers.py          # File handling utility functions (planned)
+├── dades/
+│   ├── habitacions.txt # Stores room data
+│   └── reserves.txt    # Stores reservation data.
+└── README.md           # Project overview
+</code></pre>
 
 
 ## 📌 Note
