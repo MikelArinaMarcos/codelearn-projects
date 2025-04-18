@@ -1,0 +1,132 @@
+# ------------------------------
+# 💻 General IDE and OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------
+# 💡 Visual Studio Code
+# ------------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------------
+# 🐍 Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.log
+*.sqlite3
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# ------------------------------
+# ☕ Java
+# ------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+*.iml
+target/
+build/
+out/
+
+# ------------------------------
+# 🌐 Node.js / JavaScript / HTML / CSS
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+.sass-cache/
+.parcel-cache/
+
+# ------------------------------
+# 💾 C / C++
+# ------------------------------
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+*.so
+*.a
+*.lib
+
+# ------------------------------
+# 🔌 Arduino
+# ------------------------------
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.d
+*.lst
+*.srec
+*.firmware.*
+*.log
+*.sav
+*.suo
+*.ncb
+
+# Ignore Arduino build folders
+build/
+__vm/
+*.vscode/
+*.ino.*
+*.dep
+*.elf
+
+# ------------------------------
+# 📷 Media and temporary files
+# ------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# ------------------------------
+# 📦 Compression
+# ------------------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ------------------------------
+# 🧪 Jupyter Notebooks (optional)
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# 🔒 Secrets (sólo si trabajas con APIs)
+# ------------------------------
+secrets.json
+*.pem
+*.key
+*.crt
+*.pfx
+*.cert
+*.der
