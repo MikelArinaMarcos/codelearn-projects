@@ -1,0 +1,2 @@
+101,2,disponible,70.5
+102,2,disponible,70.5

@@ -20,7 +20,7 @@ def mostrar_ajuda():
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("⚠️ Error: No s'ha especificat cap comanda.")
+        print("Error: No s'ha especificat cap comanda.")
         mostrar_ajuda()
         sys.exit(1)
 
@@ -28,14 +28,14 @@ if __name__ == "__main__":
 
     if comanda == "afegir":
         if len(sys.argv) < 3:
-            print("⚠️ Error: Comanda 'afegir' incompleta.")
+            print("Error: Comanda 'afegir' incompleta.")
             mostrar_ajuda()
         elif sys.argv[2] == "habitacio" and len(sys.argv) == 6:
             afegir_habitacio(sys.argv[3], sys.argv[4], sys.argv[5])
         elif sys.argv[2] == "reserva" and len(sys.argv) == 8:
             afegir_reserva(sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6], sys.argv[7])
         else:
-            print("⚠️ Error en la comanda 'afegir'. Revisa els paràmetres.")
+            print("Error en la comanda 'afegir'. Revisa els paràmetres.")
             mostrar_ajuda()
 
     elif comanda == "finalitzar" and len(sys.argv) == 4 and sys.argv[2] == "habitacio":

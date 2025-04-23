@@ -17,7 +17,7 @@ RUTA = "dades/habitacions.txt"
 
 def carregar_habitacions():
     """
-    Llegeix totes les habitacions del fitxer i les retorna com a llista de diccionaris.
+    Llegeix totes les habitacions del fitxer i les retorna com a llista.
     """
     habitacions = []
     if not os.path.exists(RUTA):
